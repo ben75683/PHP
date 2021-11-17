@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>成績計算</title>
+</head>
+<body>
+    <h1>成績計算</h1>
+    <form action="09B成績計算.php" method="post">
+        <p>請輸入以下資料：</p>
+        <p>班級：
+            <select name="class">
+                <option value="甲">甲</option>
+                <option value="乙">乙</option>
+                <option value="丙">丙</option>
+            </select>
+            座號：
+            <select name="number">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </p>
+        <p>姓名：<input type="text" name="name"></p>
+        <p>國文：<input type="text" name="ch"></p>
+        <p>英文：<input type="text" name="eg"></p>
+        <p>數學：<input type="text" name="mt"></p>
+        <p>物理：<input type="text" name="ph"></p>
+        <p>
+            <input type="submit" value="送出">
+            <input type="reset" value="重設">
+        </p>
+    </form>
+
+</body>
+</html>
